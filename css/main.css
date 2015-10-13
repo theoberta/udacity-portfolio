@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #026857;
+	font-family: 'Inconsolata', ;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/*header*/
+
+header {
+	margin-top: 20px;
+}
+
+.logo {
+	max-width: 100px;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0;
+}
+
+h4 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.devider {
+	background-color: #bbb;
+	height: 3px;
+	margin: 20px 0 20px 0;
+}
+
+/*content*/
+
+h2 {
+	margin: 40px 0 20px 0;
+	font-size: 3em;
+}
+
+.work h4 {
+	margin-top: 20px;
+}
+
+section img {
+	border: 1px solid #ddd;
+}
+
+/*footer*/
+
+footer {
+	margin-bottom: 40px;
+	text-align: right;
+}
+
+
+
+/*media query 992*/
+
+@media (max-width: 992px) {
+	.work .col-md-4 {
+	margin-bottom: 30px;
+	}
+}
+
+header .col-md-6 {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+
+/*media query 580*/
+
+@media (max-width: 580px) {
+
+	.logo {
+		max-width: 50px;
+	}
+
+	h1 {
+		font-size: 2.2em;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h4 {
+		font-size: 1.2em;
+	}
+}
+
+
+/*media query 365*/
+
+@media (max-width: 365px) {
+	.col-md-6:first-child {
+		display: none;
+	}
+
+	header .col-md-6 {
+		width: 100%;
+		text-align: left;
+	}
+}
