@@ -4,17 +4,19 @@
 	<title>portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js" ></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<header class="row">
-			<div class="col-md-6">
+			<div class="col-sm-6">
 				<img class="logo img-responsive" src="images/logo-mock.svg" alt="logo">
-	  </div><div class="text-right col-md-6"><!--  no line break here so display inline block works in media query -->
+	  		</div>
+	  		<div class="text-right col-sm-6 title">
 				<h1 class="text-uppercase">Theoberta</h1>
 				<h4 class="text-uppercase">Front-end apprentice</h4>
 			</div>
@@ -25,22 +27,22 @@
 			<h2>Featured Work</h2>
 			<div class="work row">
 				<div class="col-md-4 text-center">
-					<img data-toggle="modal" data-target="#game" class="img-responsive" src="images/projects/game_cut_760.jpg"
+					<img data-toggle="modal" data-target="#game" class="img-responsive work-img" src="images/projects/game_cut_760.jpg"
 					srcset="images/projects/game_cut_1440.jpg 1440w, images/projects/game_cut_1040.jpg 1040w, images/projects/game_cut_760.jpg 760w, images/projects/game_cut_380.jpg 380w" sizes="(max-width: 991px) 100vw, 360px" alt="Game Don't lose Saint Vincent made with scratch">
-					<h4>Game</h4>
+					<h4 class="work-headline">Game</h4>
 					<a href="https://scratch.mit.edu/projects/41953884/">https://scratch.mit.edu/projects/41953884/</a>
 				</div>
 				<div class="col-md-4 text-center">
-					<img data-toggle="modal" data-target="#monsanto" class="img-responsive" src="images/projects/monsanto_760.jpg" srcset="images/projects/monsanto_1440.jpg 1440w, images/projects/monsanto_1040.jpg 1040w, images/projects/monsanto_760.jpg 760w, images/projects/monsanto_380.jpg 380w" sizes="(max-width: 991px) 100vw, 360px" alt="site for Monsanto park">
-					<h4>Park Monsanto</h4>
+					<img data-toggle="modal" data-target="#monsanto" class="img-responsive work-img" src="images/projects/monsanto_760.jpg" srcset="images/projects/monsanto_1440.jpg 1440w, images/projects/monsanto_1040.jpg 1040w, images/projects/monsanto_760.jpg 760w, images/projects/monsanto_380.jpg 380w" sizes="(max-width: 991px) 100vw, 360px" alt="site for Monsanto park">
+					<h4 class="work-headline">Park Monsanto</h4>
 					<a href="#">http://www.monsantourl.com</a>
 				</div>
 				<div class="col-md-4 text-center">
 					<picture data-toggle="modal" data-target="#hiking">
 						 <source srcset="images/projects/hiking_cut_1040.jpg 1040w, images/projects/hiking_cut_760.jpg 760w, images/projects/hiking_cut_380.jpg 380w" media="(max-width: 450px)" sizes="100vw">
-						 <img class="img-responsive" src="images/projects/hiking_760.jpg" srcset="images/projects/hiking_1440.jpg 1440w, images/projects/hiking_1040.jpg 1040w, images/projects/hiking_760.jpg 760w, images/projects/hiking_380.jpg 380w" sizes="(max-width: 991px) 100vw, 360px" alt="site hiking in Portugal">
+						 <img class="img-responsive work-img" src="images/projects/hiking_760.jpg" srcset="images/projects/hiking_1440.jpg 1440w, images/projects/hiking_1040.jpg 1040w, images/projects/hiking_760.jpg 760w, images/projects/hiking_380.jpg 380w" sizes="(max-width: 991px) 100vw, 360px" alt="site hiking in Portugal">
 					</picture>
-					<h4>Hiking.pt</h4>
+					<h4 class="work-headline">Hiking.pt</h4>
 					<a href="#">http://www.hiking.pt</a>
 				</div>
 			</div>

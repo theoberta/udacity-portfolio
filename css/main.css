@@ -1,11 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-
 body {
 	margin: 0;
 	padding: 0;
 	color: #026857;
 	font-family: "Inconsolata", arial, sans-serif;
-
 }
 
 * {
@@ -38,18 +35,18 @@ h4 {
 	margin: 20px 0 20px 0;
 }
 
-/*content*/
+/*main*/
 
 h2 {
 	margin: 40px 0 20px 0;
 	font-size: 3em;
 }
 
-.work h4 {
+.work-headline {
 	margin-top: 20px;
 }
 
-main img {
+.work-img {
 	border: 1px solid #ddd;
 }
 
@@ -64,14 +61,22 @@ footer {
 
 @media (max-width: 992px) {
 	.work .col-md-4 {
-	margin-bottom: 30px;
+		margin-bottom: 30px;
 	}
 }
 
-header .col-md-6 {
-	display: inline-block;
-	width: 50%;
-	vertical-align: middle;
+/*media query 768*/
+
+@media (max-width: 768px) {
+
+	.logo {
+		margin: 0 auto 15px auto;
+	}
+
+	.title {
+		text-align: center;
+	}
+
 }
 
 /*media query 580*/
@@ -79,7 +84,7 @@ header .col-md-6 {
 @media (max-width: 580px) {
 
 	.logo {
-		max-width: 50px;
+		max-width: 75px;
 	}
 
 	h1 {
@@ -92,18 +97,5 @@ header .col-md-6 {
 
 	h4 {
 		font-size: 1.2em;
-	}
-}
-
-/*media query 365*/
-
-@media (max-width: 365px) {
-	.col-md-6:first-child {
-		display: none;
-	}
-
-	header .col-md-6 {
-		width: 100%;
-		text-align: left;
 	}
 }
